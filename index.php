@@ -22,10 +22,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     
      <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
 
     <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>-->
 </head>
 <body>
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -65,21 +65,23 @@
 </div>
   
 <!--main card-->
-   <div class="col s12 m7">
-    <div class="card horizontal z-depth-0">
-      <div class="card-image">
-        <img src="blank.png">
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <p>Get Everything</p>
-        </div>
-        <div class="card-action">
-          <a href="#">Explore</a>
-        </div>
-      </div>
+   <div class="container">
+    <div class="row-fluid">
+       <div class="card-deck m-4">
+        <div class="col-sm-4">
+         <div class="card">
+    <img class="card-img-top" src="../blank.jpeg" alt="Card image cap">
+         <div class="text-center">
+    <div class="card-body">
+      <h5 class="card-title">Get Everything</h5>
+        <a href="#" class="btn btn-outline-dark m-2">Explore</a>
     </div>
-  </div>
+      </div>
+ </div>
+       </div>             
+     </div>
+            </div>
+      </div>
  
     
  <!--categories-->
