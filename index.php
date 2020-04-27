@@ -58,10 +58,10 @@
   <? for($i=0;$i<4;$i++){ ?>
   
     <div class="card m-4">
-        <img src="images/thumbnail.svg" class="card-img-top" alt="...">
+        <img src="blank.png" class="card-img-top" alt="Product">
         <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor.</p>
+            <h5 class="card-title">Product</h5>
+            <p class="card-text">Product <?=$i?></p>
         </div>
         <!--<div class="card-footer">
             <small class="text-muted">Last updated 3 mins ago</small>
