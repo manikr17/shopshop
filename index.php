@@ -67,8 +67,8 @@
             <h5 class="card-title">Product&nbsp;&nbsp;<span class="fa fa-heart-o"></span></h5>
             <p class="card-text">Product <?=$i?></p>
         </div>
-        <div class="text-center m-2">
-          <button type="button" class="btn btn-dark">Buy</button>
+        <div class="text-center">
+          <button type="button" class="btn btn-dark m-2">Buy</button>
       </div>
         <!--<div class="card-footer">
             <small class="text-muted">Last updated 3 mins ago</small>
