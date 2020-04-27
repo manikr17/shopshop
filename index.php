@@ -65,7 +65,7 @@
 </div>
   
 <!--main card-->
-  <div class="card" style="width:100%;height:10%;">
+  <div class="card m-2" style="width:100%;height:10rem;">
   <img class="card-img-top" src="blank.png" alt="Card image top">
   <div class="card-body">
     <h3 class="card-title">Get Everything</h3>
