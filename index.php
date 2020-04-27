@@ -59,7 +59,7 @@
 </div>
   
 <!--main card-->
-<div class="card mb-3">
+<div class="card m-4">
   <img class="card-img-top" src="blank.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Get Everything</h5>
