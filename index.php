@@ -45,8 +45,8 @@
             <a href="#" class="nav-item nav-link">Products</a>
         </div>
         <div class="navbar-nav ml-auto">
-            <a href="register/register.php" class="nav-item nav-link">Register</a>
-            <a href="login/login.php" class="nav-item nav-link">Login</a>&nbsp;&nbsp;
+            <!--<a href="register/register.php" class="nav-item nav-link">Register</a>
+            <a href="login/login.php" class="nav-item nav-link">Login</a>&nbsp;&nbsp;-->
             <?php if(isset($_SESSION['user_name'])) 
                     echo '<a href="profile.php" class="nav-item nav-link active"><i class="fa fa-user-o">  '.$_SESSION['user_name'].'</i></a>';
                 else{
