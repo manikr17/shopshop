@@ -66,6 +66,11 @@
         <div class="text-center">
             <?php if(isset($_SESSION['user_name'])) 
                     echo '<h1 class="display-4"> username : '.$_SESSION['user_name'].'</h1>';
+                    else
+                    {
+                        header("Location:index.php");
+                        die();
+                    }
             ?>
         </div>
     </div>
