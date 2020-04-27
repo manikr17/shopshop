@@ -67,11 +67,9 @@
 <!--main card-->
   <div class="card m-4">
   <img class="card-img-top" src="blank.png" alt="Card image top" style="height:10rem;">
-  <div class="card-body">
-      <div class="text-center>
+  <div class="card-body text-center"> 
     <h3 class="card-title">Get Everything</h3>
     <button type="submit" class="btn btn-outline-dark">Search</button>
-      </div>
     <!--<p class="card-text">This is a simple Card example</p>-->
   </div>
 </div> 
