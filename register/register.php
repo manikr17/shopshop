@@ -63,15 +63,15 @@
   <form class="jumbotron m-4">
      <div class="form-group">
         <label for="inputEmail">Username</label>
-        <input type="text" class="form-control" id="inputuser_name" placeholder="user_name">
+        <input type="text" class="form-control" id="inputuser_name" placeholder="user_name" name="user_name">
     </div>
     <div class="form-group">
         <label for="inputEmail">Email</label>
-        <input type="email" class="form-control" id="inputEmail" placeholder="email">
+        <input type="email" class="form-control" id="inputEmail" placeholder="email" name="email">
     </div>
     <div class="form-group">
         <label for="inputPassword">Password</label>
-        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+        <input type="password" class="form-control" id="inputPassword" placeholder="Password" name="password">
     </div>
     <!--<div class="form-group">
         <label class="form-check-label"><input type="checkbox"> Remember me</label>
