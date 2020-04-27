@@ -62,14 +62,14 @@
 
     
     
-  <form>
+  <form class="jumbotron m-4" method="POST" action="#">
      <div class="form-group">
         <label for="inputEmail">Username</label>
-        <input type="text" class="form-control" id="inputuser_name" placeholder="user_name">
+        <input type="text" class="form-control" id="inputuser_name" placeholder="username" name="user_name">
     </div>
     <div class="form-group">
         <label for="inputPassword">Password</label>
-        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+        <input type="password" class="form-control" id="inputPassword" placeholder="Password" name="password">
     </div>
     <!--<div class="form-group">
         <label class="form-check-label"><input type="checkbox"> Remember me</label>
@@ -77,11 +77,6 @@
     <button type="submit" class="btn btn-dark">Sign in</button>
 </form>
     
-  
-  
-  
-  
-  
   
   
   </body>
