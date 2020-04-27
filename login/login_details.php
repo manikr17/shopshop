@@ -12,14 +12,21 @@ function check_password($user_name,$password)
     
   $con = getCon();
     
-  $user = $con->query("select * from user where user_name='$user_name';")->fetch_assoc();
-  echo var_dump($user);
-  $password_hash=$user['password'];
+  $user = $con->query("select * from user where user_name='$user_name';");
+  $res = $user->fetch_assoc();
+  
+  echo var_dump($res)."<br>";
+  
+  $password_hash=$res['password'];
     
-  if(password_verify($password,$password_hash))
+  if(password_verify($password,$password_hash)){
+    echo "password verified";
     return True;
-  else
+  }
+  else{
+    echo "password not verified";
     return False;
+  }
 }
 
 
