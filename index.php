@@ -34,18 +34,18 @@
           <a href="#" class="nav-item nav-link">Register</a>
           <a href="#" class="nav-item nav-link">Login</a>
         </div>
-        <form class="form-inline">
+        <!--<form class="form-inline">
             <input type="text" class="form-control mr-sm-2" placeholder="Search" aria-label="search">
             <button type="submit" class="btn btn-light my-sm-0">Search</button>
-        </form>
+        </form>-->
     </div>
 </nav>
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <form class="form-inline ml-auto">
             <input type="text" class="form-control mr-sm-2" placeholder="Search">
-            <button type="submit" class="btn btn-outline-dark">Search</button>
-        </form>
+            <button type="submit" class="btn btn-outline-dark my-sm-0">Search</button>
+    </form>
   </div>
 </div>
 <body>
