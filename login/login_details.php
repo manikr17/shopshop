@@ -20,11 +20,11 @@ function check_password($user_name,$password)
   $password_hash=$res['password'];
     
   if(password_verify($password,$password_hash)){
-    echo "password verified";
+    echo "password verified<br>";
     return True;
   }
   else{
-    echo "password not verified";
+    echo "password not verified<br>";
     return False;
   }
 }
