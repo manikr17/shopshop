@@ -62,7 +62,7 @@
 
     
     
-  <form class="jumbotron m-4" method="POST" action="#">
+  <form class="jumbotron m-4" method="POST" action="login_details.php">
      <div class="form-group">
         <label for="inputEmail">Username</label>
         <input type="text" class="form-control" id="inputuser_name" placeholder="username" name="user_name">
