@@ -43,7 +43,7 @@
         <div class="navbar-nav ml-auto">
             <a href="../register/register.php" class="nav-item nav-link">Register</a>
             <a href="#" class="nav-item nav-link">Login</a>&nbsp;&nbsp;
-            <a href="#" class="nav-item nav-link active"><i class="fa fa-user-o"></i></a>
+            <!--<a href="#" class="nav-item nav-link active"><i class="fa fa-user-o"></i></a>-->
         </div>
         <!--<form class="form-inline">
             <input type="text" class="form-control mr-sm-2" placeholder="Search" aria-label="search">
