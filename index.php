@@ -59,7 +59,8 @@
 </div>
   
 <!--main card-->
-<div class="card m-4 h-100">
+    <div class="container">
+<div class="card m-4">
   <img class="card-img-top" src="blank.png" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title">Get Everything</h5>
@@ -68,6 +69,7 @@
     <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
   </div>
 </div>
+    </div>
   
     
  <!--categories-->
