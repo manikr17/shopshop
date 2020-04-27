@@ -54,8 +54,11 @@
   
   
   
-  
-  
+ <div class="jumbotron">
+     <div class="text-center">
+        <p class="display-3">About</p>       
+     </div>
+  </div>
   
   
   
