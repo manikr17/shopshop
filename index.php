@@ -64,7 +64,7 @@
     <div class="card m-4">
         <img src="blank.png" class="card-img-top" alt="Product">
         <div class="card-body">
-            <h5 class="card-title">Product&nbsp;&nbsp;<a href=#" class="fa fa-heart-o" role="button"></a></h5>
+            <h5 class="card-title">Product&nbsp;&nbsp;<a href="#"><i class="fa fa-heart-o"></i></a></h5>
             <p class="card-text">Product <?=$i?></p>
         </div>
         <div class="text-center">
