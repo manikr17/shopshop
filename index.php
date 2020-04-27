@@ -28,18 +28,28 @@
 
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav">
-            <a href="#" class="nav-item nav-link active">Home</a>
-            <a href="#" class="nav-item nav-link">About</a>
-            <a href="#" class="nav-item nav-link">Products</a>
-            <!--<a href="#" class="nav-item nav-link">Register</a>
-            <a href="#" class="nav-item nav-link">Login</a>-->
-        </div>
-        <form class="form-inline ml-auto">
-            <!--<input type="text" class="form-control mr-sm-2" placeholder="Search">
-            <button type="submit" class="btn btn-outline-light">Search</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
-            <button type="submit" class="btn btn-light">Register</button>&nbsp;&nbsp;
-            <button type="submit" class="btn btn-light">Login</button>
-        </form>
+            <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+           </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Search</a>
+           </li>
+         </ul>
+         <ul class="navbar-nav ml-auto">
+             <li class="nav-item">
+               <a class="nav-link btn btn-light" href="#">Register</a>
+              </li>
+           <li class="nav-item">
+               <a class="nav-link" href="#">Login</a>
+              </li>
+         </ul>
     </div>
 </nav>
 <body>
