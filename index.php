@@ -35,8 +35,8 @@
             <a href="#" class="nav-item nav-link">Login</a>-->
         </div>
         <form class="form-inline ml-auto">
-            <input type="text" class="form-control mr-sm-2" placeholder="Search">
-            <button type="submit" class="btn btn-outline-light">Search</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <!--<input type="text" class="form-control mr-sm-2" placeholder="Search">
+            <button type="submit" class="btn btn-outline-light">Search</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
             <button type="submit" class="btn btn-light">Register</button>&nbsp;&nbsp;
             <button type="submit" class="btn btn-light">Login</button>
         </form>
