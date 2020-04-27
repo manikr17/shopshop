@@ -60,9 +60,12 @@
     <div class="card m-4">
         <img src="blank.png" class="card-img-top" alt="Product">
         <div class="card-body">
-            <h5 class="card-title">Product <span class="glyphicon glyphicon-heart" aria-hidden="true"></span></h5>
+            <h5 class="card-title">Product <span class="glyphicon glyphicon-heart">Save</span></h5>
             <p class="card-text">Product <?=$i?></p>
         </div>
+        <div class="text-center">
+          <button type="button" class="btn btn-dark">Buy</button>
+      </div>
         <!--<div class="card-footer">
             <small class="text-muted">Last updated 3 mins ago</small>
         </div>-->
