@@ -65,13 +65,8 @@
 </div>
   
 <!--main card-->
-    <div class="card medium">
-        <p>Get Everything</p>
-    </div>
-    <br>
-    <div class="col s12 m7">
-    <h2 class="header">Horizontal Card</h2>
-    <div class="card horizontal">
+   <div class="col s12 m7">
+    <div class="card horizontal z-depth-0">
       <div class="card-image">
         <img src="blank.png">
       </div>
