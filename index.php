@@ -11,9 +11,13 @@
     <title>web learn</title>
   
     <!--bootstrap link-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     
+    <!--font awesome-->  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
     <!--bootstrap js-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -60,10 +64,10 @@
     <div class="card m-4">
         <img src="blank.png" class="card-img-top" alt="Product">
         <div class="card-body">
-            <h5 class="card-title">Product <span class="glyphicon glyphicon-heart">Save</span></h5>
+            <h5 class="card-title">Product <span class="fa-heart-o"></span></h5>
             <p class="card-text">Product <?=$i?></p>
         </div>
-        <div class="text-center">
+        <div class="text-center m-2">
           <button type="button" class="btn btn-dark">Buy</button>
       </div>
         <!--<div class="card-footer">
