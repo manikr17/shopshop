@@ -65,23 +65,15 @@
 </div>
   
 <!--main card-->
-   <div class="container">
-    <div class="row-fluid">
-       <div class="card-deck m-2">
-        <div class="col-sm-4">
-         <div class="card">
-    <img class="card-img-top" src="blank.png" alt="Card image cap">
-         <div class="text-center">
-    <div class="card-body">
-      <h5 class="card-title">Get Everything</h5>
-        <a href="#" class="btn btn-outline-dark m-2">Explore</a>
-    </div>
-      </div>
- </div>
-       </div>             
-     </div>
-            </div>
-      </div>
+  <!--<div class="card">
+  <div class="embed-responsive embed-responsive-16by9">
+     <img alt="Card image cap" class="card-img-top embed-responsive-item" src="img/butterPecan.jpg" />
+  </div>
+  <div class="card-block">
+    <h4 class="card-title">Butter Pecan</h4>
+    <p class="card-text">Roasted pecans, butter and vanilla come together to make this wonderful ice cream</p>
+  </div>
+</div>-->
  
     
  <!--categories-->
