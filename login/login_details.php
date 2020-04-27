@@ -25,15 +25,18 @@ function check_password($user_name,$password)
 
 if(rowExists('user','user_name',$user_name)){
     if(check_password($user_name,$password)){
+        echo "Yes";
         $_SESSION['user_name']=$user_name;
         header("Location:../index.php");
         die();
     }
-    else
+    else{
         echo "no2 [password wrong]";
+    }
 }
-else
+else{
     echo "no1 [user doesn't exist]";
+}
   
 
 ?>
