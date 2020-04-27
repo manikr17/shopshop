@@ -31,8 +31,8 @@
             <a href="#" class="nav-item nav-link active">Home</a>
             <a href="#" class="nav-item nav-link">About</a>
             <a href="#" class="nav-item nav-link">Products</a>
-          <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Register</a>
-          <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Login</a>
+          <a href="#" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">Register</a>
+          <a href="#" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">Login</a>
             <!--<a href="#" class="nav-item nav-link">Register</a>
             <a href="#" class="nav-item nav-link">Login</a>-->
         </div>
