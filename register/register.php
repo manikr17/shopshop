@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web learn</title>
+    <title>Shop-shop</title>
   
     <!--bootstrap link-->
     <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
@@ -73,9 +73,9 @@
         <label for="inputPassword">Password</label>
         <input type="password" class="form-control" id="inputPassword" placeholder="Password">
     </div>
-    <div class="form-group">
+    <!--<div class="form-group">
         <label class="form-check-label"><input type="checkbox"> Remember me</label>
-    </div>
+    </div>-->
     <button type="submit" class="btn btn-dark">Register</button>
 </form>
     
