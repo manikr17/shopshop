@@ -60,7 +60,7 @@
     <div class="card m-4">
         <img src="blank.png" class="card-img-top" alt="Product">
         <div class="card-body">
-            <h5 class="card-title">Product</h5>
+            <h5 class="card-title">Product <span class="glyphicon glyphicon-heart" aria-hidden="true"></span></h5>
             <p class="card-text">Product <?=$i?></p>
         </div>
         <!--<div class="card-footer">
