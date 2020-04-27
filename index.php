@@ -58,27 +58,7 @@
   </div>
 </div>
   
-  <!--cards-->
-  <div class="card-group m-4">
-  <? for($i=0;$i<4;$i++){ ?>
   
-    <div class="card m-4">
-        <img src="blank.png" class="card-img-top" alt="Product">
-        <div class="card-body">
-            <h5 class="card-title">Product&nbsp;&nbsp;<a href="#"><i class="fa fa-heart-o"></i></a></h5>
-            <p class="card-text">Product <?=$i?></p>
-        </div>
-        <div class="text-center">
-          <a href="#" class="btn btn-dark mb-4" role="button">Buy</a>
-          <!--<button type="button" class="btn btn-dark mb-4">Buy</button>-->
-      </div>
-        <!--<div class="card-footer">
-            <small class="text-muted">Last updated 3 mins ago</small>
-        </div>-->
-    </div>
- 
-  <? } ?>
-     </div>
   
   
 <body>
