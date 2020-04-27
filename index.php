@@ -64,11 +64,12 @@
     <div class="card m-4">
         <img src="blank.png" class="card-img-top" alt="Product">
         <div class="card-body">
-            <h5 class="card-title">Product&nbsp;&nbsp;<span class="fa fa-heart-o"></span></h5>
+            <h5 class="card-title">Product&nbsp;&nbsp;<a href=#" class="fa fa-heart-o" role="button"></a></h5>
             <p class="card-text">Product <?=$i?></p>
         </div>
         <div class="text-center">
-          <button type="button" class="btn btn-dark mb-4">Buy</button>
+          <a href="#" class="btn btn-dark mb-4" role="button">Buy</a>
+          <!--<button type="button" class="btn btn-dark mb-4">Buy</button>-->
       </div>
         <!--<div class="card-footer">
             <small class="text-muted">Last updated 3 mins ago</small>
