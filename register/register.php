@@ -60,7 +60,7 @@
   
   
  <!--Regsiter form-->   
-  <form class="jumbotron m-4">
+  <form method="POST" action="register_details.php" class="jumbotron m-4">
      <div class="form-group">
         <label for="inputEmail">Username</label>
         <input type="text" class="form-control" id="inputuser_name" placeholder="username" name="user_name">
