@@ -54,7 +54,7 @@
 </div>
   
   <!--cards-->
-  <div class="card-group">
+  <div class="card-group m-4">
   <? for($i=0;$i<4;$i++){ ?>
   
     <div class="card">
