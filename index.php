@@ -40,6 +40,13 @@
         </form>-->
     </div>
 </nav>
-—
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <form class="form-inline ml-auto">
+            <input type="text" class="form-control mr-sm-2" placeholder="Search">
+            <button type="submit" class="btn btn-outline-dark">Search</button>
+        </form>
+  </div>
+</div>
 <body>
 </html>
