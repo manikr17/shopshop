@@ -59,17 +59,19 @@
 </div>
   
 <!--main card-->
-<div class="card text-center">
-  <!--<div class="card-header">
-    Featured
-  </div>-->
+<div class="card mb-3">
+  <img class="card-img-top" src="blank.png" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Shop shop</h5>
-    <p class="card-text">Get Everything</p>
+    <h5 class="card-title">Get Everything</h5>
     <a href="#" class="btn btn-outline-dark">Explore</a>
+    <!--<p class="card-text">Text</p>-->
+    <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
   </div>
 </div>
   
+    
+ <!--categories-->
+    
   
   
 <body>
