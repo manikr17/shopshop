@@ -58,6 +58,17 @@
   </div>
 </div>
   
+<!--main card-->
+<div class="card text-center">
+  <!--<div class="card-header">
+    Featured
+  </div>-->
+  <div class="card-body">
+    <h5 class="card-title">Shop shop</h5>
+    <p class="card-text">Get Everything</p>
+    <a href="#" class="btn btn-outline-dark">Explore</a>
+  </div>
+</div>
   
   
   
