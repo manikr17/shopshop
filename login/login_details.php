@@ -13,10 +13,11 @@
     
     $con = getCon();
     
-    $user = $con->query("select * from user where user_name='$user_name;")->fetch_assoc();
-    echo var_dump($user)."<br>";
+    $user = $con->query("select * from user where user_name='$user_name;");
+    $res = $user->fetch_assoc();
+    echo var_dump($res)."<br>";
     
-    $password_hash=$user['password'];
+    $password_hash=$res['password'];
     
     if(password_verify($p,$password_hash))
       return True;
