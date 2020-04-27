@@ -57,7 +57,7 @@
   <div class="card-group m-4">
   <? for($i=0;$i<4;$i++){ ?>
   
-    <div class="card">
+    <div class="card m-4">
         <img src="images/thumbnail.svg" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Card title</h5>
