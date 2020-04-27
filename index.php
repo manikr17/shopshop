@@ -31,14 +31,14 @@
             <a href="#" class="nav-item nav-link active">Home</a>
             <a href="#" class="nav-item nav-link">About</a>
             <a href="#" class="nav-item nav-link">Products</a>
-          <a href="#" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">Register</a>
-          <a href="#" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">Login</a>
             <!--<a href="#" class="nav-item nav-link">Register</a>
             <a href="#" class="nav-item nav-link">Login</a>-->
         </div>
         <form class="form-inline ml-auto">
             <input type="text" class="form-control mr-sm-2" placeholder="Search">
-            <button type="submit" class="btn btn-outline-light">Search</button>
+            <button type="submit" class="btn btn-outline-light">Search</button>&nbsp;&nbsp;
+            <button type="submit" class="btn btn-outline-light">Register</button>
+            <button type="submit" class="btn btn-outline-light">Login</button>
         </form>
     </div>
 </nav>
