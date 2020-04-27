@@ -1,6 +1,4 @@
-<?php
-  
-?>
+<?php?>
 
 <!--HTML boiler plate-->
 <!DOCTYPE html>
