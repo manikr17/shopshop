@@ -65,15 +65,14 @@
 </div>
   
 <!--main card-->
-  <div class="card">
-  <div class="embed-responsive embed-responsive-16by9">
-     <img alt="Card image cap" class="card-img-top embed-responsive-item" src="blank.png" />
+  <div class="card" style="width:100%;height:10%;">
+  <img class="card-img-top" src="blank.png" alt="Card image top">
+  <div class="card-body">
+    <h3 class="card-title">Get Everything</h3>
+    <h4 class="card-subtitle">Shop</h4>
+    <!--<p class="card-text">This is a simple Card example</p>-->
   </div>
-  <div class="card-block">
-    <h4 class="card-title">Get Everything</h4>
-    <p class="card-text">Shop</p>
-  </div>
-</div>
+</div> 
  
     
  <!--categories-->
