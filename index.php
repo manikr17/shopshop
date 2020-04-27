@@ -67,10 +67,10 @@
 <!--main card-->
    <div class="container">
     <div class="row-fluid">
-       <div class="card-deck m-4">
+       <div class="card-deck m-2">
         <div class="col-sm-4">
          <div class="card">
-    <img class="card-img-top" src="../blank.jpeg" alt="Card image cap">
+    <img class="card-img-top" src="blank.png" alt="Card image cap">
          <div class="text-center">
     <div class="card-body">
       <h5 class="card-title">Get Everything</h5>
