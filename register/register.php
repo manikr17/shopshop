@@ -63,7 +63,7 @@
   <form class="jumbotron m-4">
      <div class="form-group">
         <label for="inputEmail">Username</label>
-        <input type="text" class="form-control" id="inputuser_name" placeholder="user_name" name="user_name">
+        <input type="text" class="form-control" id="inputuser_name" placeholder="username" name="user_name">
     </div>
     <div class="form-group">
         <label for="inputEmail">Email</label>
