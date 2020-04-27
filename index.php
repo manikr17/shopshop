@@ -76,7 +76,7 @@
 
 
  <!--categories-->
- <!-- Product grid -->
+ <h2 style="text-align:center">Categories</h2>
  <div class="container" id="category">
   <div class="row p-3">
    <div class="col-md-3">
