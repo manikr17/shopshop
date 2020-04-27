@@ -44,7 +44,9 @@
   <div class="container">
     <form class="form-inline ml-auto">
             <input type="text" class="form-control mr-sm-2" placeholder="Search">
+      <div class="text-center">
             <button type="submit" class="btn btn-outline-dark my-sm-0">Search</button>
+      </div>
     </form>
   </div>
 </div>
