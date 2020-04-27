@@ -40,6 +40,8 @@
         </form>-->
     </div>
 </nav>
+  
+  <!--Search bar-->
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <form>
@@ -50,5 +52,25 @@
     </form>
   </div>
 </div>
+  
+  <!--cards-->
+  <div class="card-group">
+  <? for($i=0;$i<4;$i++){ ?>
+  
+    <div class="card">
+        <img src="images/thumbnail.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor.</p>
+        </div>
+        <!--<div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+        </div>-->
+    </div>
+ 
+  <? } ?>
+     </div>
+  
+  
 <body>
 </html>
