@@ -5,7 +5,7 @@
   include '../libraries/chocolates.php';
 
   $user_name = $_POST['user_name'];
-$password = $_POST['password'];
+  $password = $_POST['password'];
 
 function check_password($user_name,$password)
 {
@@ -25,7 +25,7 @@ function check_password($user_name,$password)
 
 if(rowExists('user','user_name',$user_name)){
     if(check_password($user_name,$password)){
-        echo "Yes";
+        //echo "Yes";
         $_SESSION['user_name']=$user_name;
         header("Location:../index.php");
         die();
@@ -35,7 +35,9 @@ if(rowExists('user','user_name',$user_name)){
     }
 }
 else{
-    echo "no1 [user doesn't exist]";
+    //echo "no1 [user doesn't exist]";
+    header("Location:../register/register.php");
+    die();
 }
   
 
