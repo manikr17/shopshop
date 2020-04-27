@@ -65,11 +65,13 @@
 </div>
   
 <!--main card-->
-  <div class="card m-2" style="width:100%;height:10rem;">
-  <img class="card-img-top" src="blank.png" alt="Card image top">
+  <div class="card m-4">
+  <img class="card-img-top" src="blank.png" alt="Card image top" style="height:10rem;">
   <div class="card-body">
+      <div class="text-center>
     <h3 class="card-title">Get Everything</h3>
-    <h4 class="card-subtitle">Shop</h4>
+    <button type="submit" class="btn btn-outline-dark">Search</button>
+      </div>
     <!--<p class="card-text">This is a simple Card example</p>-->
   </div>
 </div> 
