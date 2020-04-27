@@ -33,10 +33,10 @@
             <a href="#" class="nav-item nav-link active">Home</a>
             <a href="#" class="nav-item nav-link">About</a>
             <a href="#" class="nav-item nav-link">Products</a>
-          <a href="#" class="nav-item nav-link">Register</a>
-          <a href="#" class="nav-item nav-link">Login</a>
         </div>
         <div class="navbar-nav ml-auto">
+            <a href="#" class="nav-item nav-link">Register</a>
+            <a href="#" class="nav-item nav-link">Login</a>&nbsp;&nbsp;
             <a href="#" class="nav-item nav-link active"><i class="fa fa-user-o"></i></a>
         </div>
         <!--<form class="form-inline">
