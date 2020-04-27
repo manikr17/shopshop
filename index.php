@@ -37,7 +37,7 @@
           <a href="#" class="nav-item nav-link">Login</a>
         </div>
         <div class="navbar-nav ml-auto">
-            <a href="#"><i class="nav-item nav-link active far fa-user">User</i></a>
+            <a href="#"><i class="fas fa-user">User</i></a>
             <!--<a href="#" class="nav-item nav-link active"></a>-->
         </div>
         <!--<form class="form-inline">
