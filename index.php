@@ -1,8 +1,4 @@
-<?php
-    session_start();
-    
-    
-?>
+<?php?>
 
 <!--HTML boiler plate-->
 <!DOCTYPE html>
@@ -11,20 +7,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web learn</title>
-  
+
     <!--bootstrap link-->
-    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    
-    <!--font awesome-->  
+
+    <!--font awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+
     <!--bootstrap js-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    
+
      <!-- Compiled and minified CSS -->
     <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
 
@@ -45,15 +41,9 @@
             <a href="#" class="nav-item nav-link">Products</a>
         </div>
         <div class="navbar-nav ml-auto">
-            <!--<a href="register/register.php" class="nav-item nav-link">Register</a>
-            <a href="login/login.php" class="nav-item nav-link">Login</a>&nbsp;&nbsp;-->
-            <?php if(isset($_SESSION['user_name'])) 
-                    echo '<a href="profile.php" class="nav-item nav-link active"><i class="fa fa-user-o">  '.$_SESSION['user_name'].'</i></a>';
-                else{
-                    echo '<a href="register/register.php" class="nav-item nav-link">Register</a>
-                            <a href="login/login.php" class="nav-item nav-link">Login</a>&nbsp;&nbsp;';
-                }
-            ?>
+            <a href="register/register.php" class="nav-item nav-link">Register</a>
+            <a href="login/login.php" class="nav-item nav-link">Login</a>&nbsp;&nbsp;
+            <a href="#" class="nav-item nav-link active"><i class="fa fa-user-o"></i></a>
         </div>
         <!--<form class="form-inline">
             <input type="text" class="form-control mr-sm-2" placeholder="Search" aria-label="search">
@@ -61,7 +51,7 @@
         </form>-->
     </div>
 </nav>
-  
+
   <!--Search bar-->
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
@@ -73,21 +63,72 @@
     </form>
   </div>
 </div>
-  
+
 <!--main card-->
   <div class="card m-4">
-  <img class="card-img-top" src="blank.png" alt="Card image top" style="height:12rem;">
-  <div class="card-body text-center"> 
+  <img class="card-img-top" src="blank.png" alt="Card image top" style="height:10rem;">
+  <div class="card-body text-center">
     <h3 class="card-title">Get Everything</h3>
     <button type="submit" class="btn btn-outline-dark">Explore</button>
     <!--<p class="card-text">This is a simple Card example</p>-->
   </div>
-</div> 
- 
-    
+</div>
+
+
  <!--categories-->
-    
-  
-  
-<body>
+ <!-- Product grid -->
+ <div class="container" id="category">
+  <div class="row p-3">
+   <div class="col-md-3">
+     <figure class="figure">
+       <img src="..." class="figure-img img-fluid rounded" alt="image">
+       <figcaption class="figure-caption"><a href="#" class="stretched-link">See</a></figcaption>
+     </figure>
+   </div>
+   <div class="col-md-3">
+     <figure class="figure">
+       <img src="..." class="figure-img img-fluid rounded" alt="image">
+       <figcaption class="figure-caption"><a href="#" class="stretched-link">See</a></figcaption>
+     </figure>
+   </div>
+   <div class="col-md-3">
+     <figure class="figure">
+       <img src="..." class="figure-img img-fluid rounded" alt="image">
+       <figcaption class="figure-caption"><a href="#" class="stretched-link">See</a></figcaption>
+     </figure>
+   </div>
+   <div class="col-md-3">
+     <figure class="figure">
+       <img src="..." class="figure-img img-fluid rounded" alt="image">
+       <figcaption class="figure-caption"><a href="#" class="stretched-link">See</a></figcaption>
+     </figure>
+   </div>
+  </div><!-- end row -->
+  <div class="row p-3">
+   <div class="col-md-3">
+     <figure class="figure">
+       <img src="..." class="figure-img img-fluid rounded" alt="image">
+       <figcaption class="figure-caption"><a href="#" class="stretched-link">See</a></figcaption>
+     </figure>
+   </div>
+   <div class="col-md-3">
+     <figure class="figure">
+       <img src="..." class="figure-img img-fluid rounded" alt="image">
+       <figcaption class="figure-caption"><a href="#" class="stretched-link">See</a></figcaption>
+     </figure>
+   </div>
+   <div class="col-md-3">
+     <figure class="figure">
+       <img src="..." class="figure-img img-fluid rounded" alt="image">
+       <figcaption class="figure-caption"><a href="#" class="stretched-link">See</a></figcaption>
+     </figure>
+   </div>
+   <div class="col-md-3">
+     <figure class="figure">
+       <img src="..." class="figure-img img-fluid rounded" alt="image">
+       <figcaption class="figure-caption"><a href="#" class="stretched-link">See</a></figcaption>
+     </figure>
+   </div>
+  </div><!-- end row -->
+ </div><!-- end container -->
 </html>
