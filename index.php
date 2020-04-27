@@ -20,6 +20,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+     <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
 <body>
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -59,16 +65,8 @@
 </div>
   
 <!--main card-->
-    <div class="container">
-<div class="card m-4">
-  <img class="card-img-top" src="blank.png" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">Get Everything</h5>
-    <a href="#" class="btn btn-outline-dark">Explore</a>
-    <!--<p class="card-text">Text</p>-->
-    <!--<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
-  </div>
-</div>
+    <div class="card medium">
+        <p>Get Everything</p>
     </div>
   
     
