@@ -60,7 +60,7 @@
   
   
  <!--Regsiter form-->   
-  <form>
+  <form class="jumbotron m-4">
      <div class="form-group">
         <label for="inputEmail">Username</label>
         <input type="text" class="form-control" id="inputuser_name" placeholder="user_name">
@@ -80,12 +80,7 @@
 </form>
     
     
-  
-  
-  
-  
-  
-  
+ 
   
   </body>
 </html>
