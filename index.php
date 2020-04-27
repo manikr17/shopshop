@@ -68,7 +68,24 @@
     <div class="card medium">
         <p>Get Everything</p>
     </div>
-  
+    <br>
+    <div class="col s12 m7">
+    <h2 class="header">Horizontal Card</h2>
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src="blank.png">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>Get Everything</p>
+        </div>
+        <div class="card-action">
+          <a href="#">Explore</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
     
  <!--categories-->
     
