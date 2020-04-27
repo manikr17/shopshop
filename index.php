@@ -36,9 +36,9 @@
         </div>
         <form class="form-inline ml-auto">
             <input type="text" class="form-control mr-sm-2" placeholder="Search">
-            <button type="submit" class="btn btn-outline-light">Search</button>&nbsp;&nbsp;
-            <button type="submit" class="btn btn-outline-light">Register</button>
-            <button type="submit" class="btn btn-outline-light">Login</button>
+            <button type="submit" class="btn btn-outline-light">Search</button>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="submit" class="btn btn-outline-primary">Register</button>&nbsp;&nbsp;
+            <button type="submit" class="btn btn-outline-primary">Login</button>
         </form>
     </div>
 </nav>
