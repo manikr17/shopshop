@@ -21,7 +21,7 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <a href="#" class="navbar-brand">Brand</a>
+    <a href="#" class="navbar-brand">ShopShop</a>
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -34,10 +34,10 @@
           <a href="#" class="nav-item nav-link">Register</a>
           <a href="#" class="nav-item nav-link">Login</a>
         </div>
-        <form class="form-inline ml-auto">
+        <!--<form class="form-inline ml-auto">
             <input type="text" class="form-control mr-sm-2" placeholder="Search">
             <button type="submit" class="btn btn-outline-light">Search</button>
-        </form>
+        </form>-->
     </div>
 </nav>
 —
