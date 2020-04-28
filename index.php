@@ -95,7 +95,7 @@
     
     <?php
         // category for cards
-        $data = array("books","movies","sports","medicine","clothing","grocery");
+        $data = array("books","movies","sports","medicine","clothing","grocery","electronics","beauty");
             //<? for($i=1;$i<=4;$i++){ ?> 
     ?>
     
