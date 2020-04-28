@@ -117,7 +117,7 @@
    <div class="card">
      <figure class="figure">
        <img src="black.png" class="figure-img img-fluid rounded" alt="image">
-       <figcaption class="figure-caption text-center"><a href='categories/category.php?cat_id=<?=$dat['cat_id'];?>&&cat_name=<?=$dat['cat_name'];?>' class="stretched-link">category : <?=$c." : ".$data[$c-1]?></a></figcaption>
+       <figcaption class="figure-caption text-center"><a href='categories/category.php?cat_id=<?=$dat['cat_id'];?>&&cat_name=<?=$dat['cat_name'];?>' class="stretched-link">category : <?=$dat['cat_id'];?> : <?=$dat['cat_name'];?></a></figcaption>
      </figure>
    </div> 
   <? } ?>
@@ -135,13 +135,12 @@
    <div class="card">
      <figure class="figure">
        <img src="black.png" class="figure-img img-fluid rounded" alt="image">
-       <figcaption class="figure-caption text-center"><a href='categories/category.php?cat_id=<?=$dat['cat_id'];?>&&cat_name=<?=$dat['cat_name'];?>' class="stretched-link">category : <?=$c." : ".$data[$c-1]?></a></figcaption>
+       <figcaption class="figure-caption text-center"><a href='categories/category.php?cat_id=<?=$dat['cat_id'];?>&&cat_name=<?=$dat['cat_name'];?>' class="stretched-link">category : <?=$dat['cat_name'];?> </a></figcaption>
      </figure>
    </div> 
   <? } ?>
       </div> 
      </div>
-    
   
   
 <body>
