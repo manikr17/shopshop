@@ -102,13 +102,12 @@
    <div class="card">
      <figure class="figure">
        <img src="black.png" class="figure-img img-fluid rounded" alt="image">
-       <figcaption class="figure-caption text-center"><a href="categories/category.php" class="stretched-link">cat<?=$i?></a></figcaption>
+       <figcaption class="figure-caption text-center"><a href="categories/category.php" class="stretched-link">cat</a></figcaption>
      </figure>
    </div> 
   <? } ?>
       </div> 
      </div>
-    </div>
     <? } ?>
     
     
