@@ -95,10 +95,10 @@
     <br>
  <!--Loop category-->
     <p class="display-4 text-center">Categories</p>
-    <? for($j=0;$j<4;$j++){ ?>
-<div class="container" id="category">
+    <div class="container" id="category">
+    <? for($j=1;$j<=2;$j++){ ?>
     <div class="card-deck">
-  <? for($i=1;(4*$j+$i)<=9;$i++){ ?> 
+  <? for($i=1;$i<=4;$i++){ ?> 
    <div class="card">
      <figure class="figure">
        <img src="black.png" class="figure-img img-fluid rounded" alt="image">
@@ -107,8 +107,9 @@
    </div> 
   <? } ?>
       </div> 
+    </div>
     <? } ?>
-  </div>
+    </div>
     
    
     
