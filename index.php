@@ -100,77 +100,14 @@
     <div class="col-md-3">
      <figure class="figure">
        <img src="black.png" class="figure-img img-fluid rounded" alt="image">
-       <figcaption class="figure-caption text-center"><a href="#" class="stretched-link">Cat: <?=$i?></a></figcaption>
+       <figcaption class="figure-caption text-center"><a href="categories/category.php" class="stretched-link">Cat: <?=$i?></a></figcaption>
      </figure>
      </div>  
   <? } ?>
       </div>
   </div>
     
-    
-  
-    
-    
- <!--categories
-  <h2 style="text-align:center">Categories</h2>
-
- <div class="container" id="category">
-
-  <div class="row p-3">
-    <div class="col-md-3">
-     <figure class="figure">
-       <img src="black.png" class="figure-img img-fluid rounded" alt="image">
-       <figcaption class="figure-caption"><a href="#" class="stretched-link"></a></figcaption>
-     </figure>
-   </div>
-   <div class="col-md-3">
-     <figure class="figure">
-       <img src="black.png" class="figure-img img-fluid rounded" alt="image">
-       <figcaption class="figure-caption"><a href="#" class="stretched-link">See</a></figcaption>
-     </figure>
-   </div>
-   <div class="col-md-3">
-     <figure class="figure">
-       <img src="black.png" class="figure-img img-fluid rounded" alt="image">
-       <figcaption class="figure-caption"><a href="#" class="stretched-link">See</a></figcaption>
-     </figure>
-   </div>
-   <div class="col-md-3">
-     <figure class="figure">
-       <img src="black.png" class="figure-img img-fluid rounded" alt="image">
-       <figcaption class="figure-caption"><a href="#" class="stretched-link">See</a></figcaption>
-     </figure>
-   </div>
-  </div>
-  <div class="row p-3">
-   <div class="col-md-3">
-     <figure class="figure">
-       <img src="black.png" class="figure-img img-fluid rounded" alt="image">
-       <figcaption class="figure-caption"><a href="#" class="stretched-link">See</a></figcaption>
-     </figure>
-   </div>
-   <div class="col-md-3">
-     <figure class="figure">
-       <img src="black.png" class="figure-img img-fluid rounded" alt="image">
-       <figcaption class="figure-caption"><a href="#" class="stretched-link">See</a></figcaption>
-     </figure>
-   </div>
-   <div class="col-md-3">
-     <figure class="figure">
-       <img src="black.png" class="figure-img img-fluid rounded" alt="image">
-       <figcaption class="figure-caption"><a href="#" class="stretched-link">See</a></figcaption>
-     </figure>
-   </div>
-   <div class="col-md-3">
-     <figure class="figure">
-       <img src="black.png" class="figure-img img-fluid rounded" alt="image">
-       <figcaption class="figure-caption"><a href="#" class="stretched-link">See</a></figcaption>
-     </figure>
-   </div>
-  </div>
- </div>
-     -->
-    
+   
     
   
   
