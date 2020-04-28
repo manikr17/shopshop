@@ -96,7 +96,7 @@
     <p class="display-4 text-center">Categories</p>
 <div class="container" id="category">
     <div class="row p-3">
-  <? for($i=1;$i<=8;$i++){ ?>  
+  <? for($i=1;$i<=9;$i++){ ?>  
     <div class="col-md-3">
      <figure class="figure">
        <img src="black.png" class="figure-img img-fluid rounded" alt="image">
