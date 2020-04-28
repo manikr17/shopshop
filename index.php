@@ -34,6 +34,7 @@
      <style media="screen">
             .figure {display: table;margin-right: auto;margin-left: auto;}
             .figure-caption {display: table-caption;caption-side: bottom;text-align: center;}
+            .card{ border:none;}
     </style>
     
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
