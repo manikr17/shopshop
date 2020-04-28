@@ -109,7 +109,11 @@
   </div>
     
    
+<?php
     
+    $data = array("Clothing","Sports","Electronics","Travel","medicine","grocery");  
+    
+?> 
   
   
 <body>
