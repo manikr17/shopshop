@@ -90,15 +90,14 @@
     
 <div class="container" id="category">
     <div class="row p-3">
+  <? for($i=0;$i<8;$i++){ ?>  
     <div class="col-md-3">
-  <? for($i=0;$i<8;$i++){ ?>      
      <figure class="figure">
        <img src="black.png" class="figure-img img-fluid rounded" alt="image">
        <figcaption class="figure-caption"><a href="#" class="stretched-link"></a></figcaption>
      </figure>
-   
+     </div>  
   <? } ?>
-    </div>  
         </div>
   </div>
     
