@@ -103,6 +103,7 @@
           while($ele = $res->fetch_assoc())
               $data[]=$ele;
            
+          print_r($data);
     ?>
     
     <br>
