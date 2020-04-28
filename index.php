@@ -51,7 +51,7 @@
                     echo '<a href="profile.php" class="nav-item nav-link active"><i class="fa fa-user-o">  '.$_SESSION['user_name'].'</i></a>';
                 else{
                     echo '<a href="register/register.php" class="nav-item nav-link">Register</a>
-                            <a href="login/login.php" class="nav-item nav-link">Login</a>&nbsp;&nbsp;';
+                            <a href="login/login_have_a_look.php" class="nav-item nav-link">Login</a>&nbsp;&nbsp;';
                 }
             ?>
         </div>
