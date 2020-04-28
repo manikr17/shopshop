@@ -85,9 +85,10 @@
   </div>
 </div> 
  
-    
+    <br>
+    <br>
  <!--Loop category-->
-    
+    <p class="display-4">Categories</p>
 <div class="container" id="category">
     <div class="row p-3">
   <? for($i=1;$i<=8;$i++){ ?>  
@@ -100,7 +101,7 @@
      </figure>
      </div>  
   <? } ?>
-        </div>
+      </div>
   </div>
     
     
