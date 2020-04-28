@@ -95,14 +95,14 @@
     <br>
  <!--Loop category-->
     <p class="display-4 text-center">Categories</p>
-    <? for($j=0;$j<=(15/4);$j++){ ?>
+    <? for($j=1;$j<=3;$j++){ ?>
     <div class="container" id="category">
     <div class="card-deck">
-  <? for($i=1;(4*$j+$i)<=15;$i++){ ?> 
+  <? for($i=1;$i<=4;$i++){ ?> 
    <div class="card">
      <figure class="figure">
        <img src="black.png" class="figure-img img-fluid rounded" alt="image">
-       <figcaption class="figure-caption text-center"><a href="categories/category.php" class="stretched-link">cat <?  (4*$j+$i) ?></a></figcaption>
+       <figcaption class="figure-caption text-center"><a href="categories/category.php" class="stretched-link">cat<?=$i?></a></figcaption>
      </figure>
    </div> 
   <? } ?>
