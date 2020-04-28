@@ -10,7 +10,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web learn</title>
+    <title>Shop shop</title>
   
     <!--bootstrap link-->
     <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
@@ -49,6 +49,7 @@
             <a href="login/login.php" class="nav-item nav-link">Login</a>&nbsp;&nbsp;-->
             <?php if(isset($_SESSION['user_name'])) 
                     echo '<a href="profile.php" class="nav-item nav-link active"><i class="fa fa-user-o">  '.$_SESSION['user_name'].'</i></a>';
+                    echo '<a href="login/logout.php" class="nav-item nav-link">Logout</a>';
                 else{
                     echo '<a href="register/register.php" class="nav-item nav-link">Register</a>
                             <a href="login/login.php" class="nav-item nav-link">Login</a>&nbsp;&nbsp;';
