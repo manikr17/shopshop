@@ -1,7 +1,6 @@
 <?php
     session_start();
-    
-    
+
 ?>
 
 <!--HTML boiler plate-->
