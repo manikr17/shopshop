@@ -95,25 +95,22 @@
     <br>
  <!--Loop category-->
     <p class="display-4 text-center">Categories</p>
+    <? for($j=0;$j<4;$j++) //outer loop ?>
 <div class="container" id="category">
     <div class="card-deck">
-  <? for($i=1;$i<=4;$i++){ ?> 
+  <? for($i=1;4*$j+$i<=9;$i++){ ?> 
    <div class="card">
      <figure class="figure">
        <img src="black.png" class="figure-img img-fluid rounded" alt="image">
-       <figcaption class="figure-caption text-center"><a href="categories/category.php" class="stretched-link">Cat : <?=$i?></a></figcaption>
+       <figcaption class="figure-caption text-center"><a href="categories/category.php" class="stretched-link">Cat : <?=$4*$j+$i?></a></figcaption>
      </figure>
    </div> 
   <? } ?>
-      </div>
+      </div> <? } ?>
   </div>
     
    
-<?php
     
-    $data = array("Clothing","Sports","Electronics","Travel","medicine","grocery");  
-    
-?> 
   
   
 <body>
