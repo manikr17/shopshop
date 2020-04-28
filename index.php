@@ -95,8 +95,9 @@
     <br>
  <!--Loop category-->
     <p class="display-4 text-center">Categories</p>
-    <div class="container" id="category">
+
     <? for($j=1;$j<=2;$j++){ ?>
+    <div class="container" id="category">
     <div class="card-deck">
   <? for($i=1;$i<=4;$i++){ ?> 
    <div class="card">
@@ -107,9 +108,10 @@
    </div> 
   <? } ?>
       </div> 
+     </div>
     </div>
     <? } ?>
-    </div>
+    
     
    
     
