@@ -38,8 +38,8 @@
 
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav">
-            <a href="index.php" class="nav-item nav-link active">Home</a>
-            <a href="#" class="nav-item nav-link">About</a>
+            <a href="index.php" class="nav-item nav-link">Home</a>
+            <a href="#" class="nav-item nav-link active">About</a>
             <a href="#" class="nav-item nav-link">Products</a>
         </div>
         <div class="navbar-nav ml-auto">
