@@ -8,7 +8,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web learn</title>
+    <title>Shop-shop category</title>
   
     <!--bootstrap link-->
     <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
@@ -25,21 +25,21 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <a href="#" class="navbar-brand">ShopShop</a>
+    <a href="../index.php" class="navbar-brand">ShopShop</a>
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav">
-            <a href="#" class="nav-item nav-link active">Home</a>
-            <a href="#" class="nav-item nav-link">About</a>
+            <a href="../index.php" class="nav-item nav-link active">Home</a>
+            <a href="../about.php" class="nav-item nav-link">About</a>
             <a href="#" class="nav-item nav-link">Products</a>
         </div>
         <div class="navbar-nav ml-auto">
-            <a href="#" class="nav-item nav-link">Register</a>
-            <a href="#" class="nav-item nav-link">Login</a>&nbsp;&nbsp;
-            <a href="#" class="nav-item nav-link active"><i class="fa fa-user-o"></i></a>
+            <a href="../register/register.php" class="nav-item nav-link">Register</a>
+            <a href="../login/login.php" class="nav-item nav-link">Login</a>&nbsp;&nbsp;
+            <a href="../profile.php" class="nav-item nav-link active"><i class="fa fa-user-o"></i></a>
         </div>
         <!--<form class="form-inline">
             <input type="text" class="form-control mr-sm-2" placeholder="Search" aria-label="search">
@@ -65,9 +65,8 @@
  
 <!--cards-->
   <div class="card-group m-4">
-  <? for($i=0;$i<4;$i++){ ?>
- 
     <div class="card m-4">
+  <? for($i=0;$i<4;$i++){ ?>
         <img src="../blank.png" class="card-img-top" alt="Product">
         <div class="card-body">
             <h5 class="card-title">Product&nbsp;&nbsp;<a href="#"><i class="fa fa-heart-o"></i></a></h5>
@@ -76,11 +75,9 @@
         <div class="text-center">
           <a href="#" class="btn btn-dark mb-4" role="button">Buy</a>
           <!--<button type="button" class="btn btn-dark mb-4">Buy</button>-->
-        </div>
-    </div>
- 
+      </div>
   <? } ?>
   </div>
-
+</div>
   </body>
 </html>
