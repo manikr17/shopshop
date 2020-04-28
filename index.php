@@ -104,12 +104,13 @@
               $data[]=$ele;
            
           print_r($data);
+          echo "<br>";
           $got = array();
           foreach($data as $dat)
           {
                 $got[]=$dat['cat_name'];   
           }
-            printr($got);
+          print_r($got);
     ?>
     
     <br>
