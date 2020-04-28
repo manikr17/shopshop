@@ -1,7 +1,7 @@
 <?php
+
     session_start();
-    
-    
+     
 ?>
 
 <!--HTML boiler plate-->
@@ -40,7 +40,7 @@
 
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav">
-            <a href="index.php" class="nav-item nav-link active">Home</a>
+            <a href="index.php" class="nav-item nav-link">Home</a>
             <a href="about.php" class="nav-item nav-link">About</a>
             <a href="#" class="nav-item nav-link">Products</a>
         </div>
