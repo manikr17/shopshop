@@ -1,5 +1,6 @@
 <?php
     session_start();
+    include 'libraries/chocolates.php';
 ?>
 
 <!--HTML boiler plate-->
