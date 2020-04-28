@@ -100,9 +100,7 @@
     <div class="col-md-3">
      <figure class="figure">
        <img src="black.png" class="figure-img img-fluid rounded" alt="image">
-         <div class="text-center">
-       <figcaption class="figure-caption"><a href="#" class="stretched-link">Cat: <?=$i?></a></figcaption>
-         </div>
+       <figcaption class="figure-caption text-center"><a href="#" class="stretched-link">Cat: <?=$i?></a></figcaption>
      </figure>
      </div>  
   <? } ?>
