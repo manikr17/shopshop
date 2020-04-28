@@ -35,12 +35,12 @@
 
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav">
-            <a href="../index.php" class="nav-item nav-link active">Home</a>
+            <a href="../index.php" class="nav-item nav-link">Home</a>
             <a href="../about.php" class="nav-item nav-link">About</a>
             <a href="#" class="nav-item nav-link">Products</a>
         </div>
         <div class="navbar-nav ml-auto">
-            <a href="#" class="nav-item nav-link">Register</a>
+            <a href="#" class="nav-item nav-link active">Register</a>
             <a href="../login/login.php" class="nav-item nav-link">Login</a>&nbsp;&nbsp;
             <!--<a href="#" class="nav-item nav-link active"><i class="fa fa-user-o"></i></a>-->
         </div>
