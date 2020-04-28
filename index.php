@@ -31,6 +31,11 @@
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>-->
 </head>
 <body>
+     <style media="screen">
+            .figure {display: table;margin-right: auto;margin-left: auto;}
+            .figure-caption {display: table-caption;caption-side: bottom;text-align: center;}
+    </style>
+    
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <a href="#" class="navbar-brand">ShopShop</a>
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -88,7 +93,7 @@
     <br>
     <br>
  <!--Loop category-->
-    <p class="display-4">Categories</p>
+    <p class="display-4 text-center">Categories</p>
 <div class="container" id="category">
     <div class="row p-3">
   <? for($i=1;$i<=8;$i++){ ?>  
