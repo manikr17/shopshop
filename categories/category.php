@@ -36,10 +36,18 @@
             <a href="../about.php" class="nav-item nav-link">About</a>
             <a href="#" class="nav-item nav-link">Products</a>
         </div>
-        <div class="navbar-nav ml-auto">
-            <a href="../register/register.php" class="nav-item nav-link">Register</a>
-            <a href="../login/login.php" class="nav-item nav-link">Login</a>&nbsp;&nbsp;
-            <a href="../profile.php" class="nav-item nav-link active"><i class="fa fa-user-o"></i></a>
+         <div class="navbar-nav ml-auto">
+            <!--<a href="register/register.php" class="nav-item nav-link">Register</a>
+            <a href="login/login.php" class="nav-item nav-link">Login</a>&nbsp;&nbsp;-->
+            <?php if(isset($_SESSION['user_name'])) {
+                    echo '<a href="../profile.php" class="nav-item nav-link active"><i class="fa fa-user-o">  '.$_SESSION['user_name'].'</i></a>';
+                    echo '<a href="../login/logout.php" class="nav-item nav-link">Logout</a>';
+                }
+                else{
+                    echo '<a href="../register/register.php" class="nav-item nav-link">Register</a>
+                            <a href="../login/login.php" class="nav-item nav-link">Login</a>&nbsp;&nbsp;';
+                }
+            ?>
         </div>
         <!--<form class="form-inline">
             <input type="text" class="form-control mr-sm-2" placeholder="Search" aria-label="search">
