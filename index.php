@@ -98,7 +98,7 @@
     <? for($j=0;$j<=(15/4);$j++){ ?>
     <div class="container" id="category">
     <div class="card-deck">
-  <? for($i=1;(4*$j+$i)<=15;$i++){ ?> 
+  <? for($i=1;i<=4&&(4*$j+$i)<16;$i++){ ?> 
    <div class="card">
      <figure class="figure">
        <img src="black.png" class="figure-img img-fluid rounded" alt="image">
