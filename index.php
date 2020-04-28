@@ -96,7 +96,7 @@
     <?php
         // category for cards
         $data = array("books","movies","sports","medicine","clothing","grocery","electronics","beauty");
-            //<? for($i=1;$i<=4;$i++){ ?> 
+            
     ?>
     
     <br>
@@ -110,7 +110,7 @@
    <div class="card">
      <figure class="figure">
        <img src="black.png" class="figure-img img-fluid rounded" alt="image">
-       <figcaption class="figure-caption text-center"><a href="categories/category.php" class="stretched-link">category : <?=$c." : ".$data[$c-1]?></a></figcaption>
+       <figcaption class="figure-caption text-center"><a href='categories/category.php?cat_id=<?=$c;?>&&cat_name=<?=$data[$c-1];?>' class="stretched-link">category : <?=$c." : ".$data[$c-1]?></a></figcaption>
      </figure>
    </div> 
   <? $c++;} ?>
