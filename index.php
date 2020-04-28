@@ -104,7 +104,12 @@
               $data[]=$ele;
            
           print_r($data);
-          $got = array_values($data);
+          $got = array();
+          foreach($data as $dat)
+          {
+                $got[]=$dat['cat_name'];   
+          }
+            printr($got);
     ?>
     
     <br>
