@@ -103,14 +103,13 @@
           while($ele = $res->fetch_assoc())
               $data[]=$ele;
            
-          print_r($data);
-          echo "<br>";
+          //print_r($data);
           $got = array();
           foreach($data as $dat)
           {
                 $got[]=$dat['cat_name'];   
           }
-          print_r($got);
+          //print_r($got);
     ?>
     
     <br>
