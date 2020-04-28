@@ -97,7 +97,7 @@
     <p class="display-4 text-center">Categories</p>
 <div class="container" id="category">
     <div class="card-deck">
-  <? for($i=1;$i<=9;$i++){ ?> 
+  <? for($i=1;$i<=4;$i++){ ?> 
    <div class="card">
      <figure class="figure">
        <img src="black.png" class="figure-img img-fluid rounded" alt="image">
