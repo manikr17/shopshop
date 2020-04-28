@@ -29,6 +29,14 @@
 
     <!-- Compiled and minified JavaScript -->
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>-->
+    
+    
+    <!--To center align figure and figure_caption-->
+    <style media="screen">
+            .figure {display: table;margin-right: auto;margin-left: auto;}
+            .figure-caption {display: table-caption;caption-side: bottom;text-align: center;}
+    </style>
+    
 </head>
 <body>
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
