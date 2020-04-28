@@ -1,5 +1,7 @@
 <?php
-  
+  $cat_id = $_GET['cat_id']; 
+  $cat_name = $_GET['cat_name']; 
+
 ?>
 
 <!--HTML boiler plate-->
@@ -70,6 +72,12 @@
 </div>
   
   
+  
+<div class="jumbotron">
+  <div class="text-center">
+    <?="cat_id : ".$cat_id."<br>"."cat_name : ".$cat_name?>
+  </div>
+  </div>
  
 <!--cards-->
   <div class="card-group m-4">
