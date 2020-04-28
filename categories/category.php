@@ -1,7 +1,7 @@
 <?php
+  session_start();
   $cat_id = $_GET['cat_id']; 
   $cat_name = $_GET['cat_name']; 
-
 ?>
 
 <!--HTML boiler plate-->
