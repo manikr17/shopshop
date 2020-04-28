@@ -1,5 +1,6 @@
 <?php
   session_start();
+  include '../libraries/chocolates.php';
   $cat_id = $_GET['cat_id']; 
   $cat_name = $_GET['cat_name']; 
 ?>
@@ -79,14 +80,25 @@
   </div>
   </div>
  
+  
+  
+  <?php
+    $con = getCon();
+    $res = $con->query("select * from products where cat_id = '$cat_id'");
+    
+    $pro = Array();
+    while($ele = $res->fetch_assoc())
+      $pro[]=$ele;
+    
+  ?>
 <!--cards-->
   <div class="card-group m-4">
-  <? for($i=0;$i<4;$i++){ ?>
+  <? foreach($pro as $p) { ?>
     <div class="card m-4">
         <img src="../blank.png" class="card-img-top" alt="Product">
         <div class="card-body">
             <h5 class="card-title">Product&nbsp;&nbsp;<a href="#"><i class="fa fa-heart-o"></i></a></h5>
-            <p class="card-text">Product <?=$i?></p>
+            <p class="card-text"><?=$p['product_name']?></p>
       </div>
           <a href="#" class="btn btn-dark mb-4 text-center" role="button">Buy</a>
           <!--<button type="button" class="btn btn-dark mb-4">Buy</button>-->
