@@ -98,6 +98,7 @@
         //$data = array("books","movies","sports","medicine","clothing","grocery","electronics","beauty");
           $con = getCon();
         
+          $data=Array();
           $res = $con->query("select * from categories");
           while($ele = $res->fetch_assoc())
               $data[]=$ele;
