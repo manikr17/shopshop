@@ -89,17 +89,18 @@
  <!--Loop category-->
     
 <div class="container" id="category">
-  <? for($i=0;$i<8;$i++){ ?>      
-  <div class="row p-3">
+    <div class="row p-3">
     <div class="col-md-3">
+  <? for($i=0;$i<8;$i++){ ?>      
      <figure class="figure">
        <img src="black.png" class="figure-img img-fluid rounded" alt="image">
        <figcaption class="figure-caption"><a href="#" class="stretched-link"></a></figcaption>
      </figure>
-   </div>
-  </div>
+   
   <? } ?>
-    </div>   
+    </div>  
+        </div>
+  </div>
     
     
   
