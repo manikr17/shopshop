@@ -87,8 +87,66 @@
  
     
  <!--categories-->
-    
+     <h2 style="text-align:center">Categories</h2>
+
+ <div class="container" id="category">
+
+  <div class="row p-3">
+<body>	   <div class="col-md-3">
+     <figure class="figure">
+       <img src="blank.png" class="figure-img img-fluid rounded" alt="image">
+       <figcaption class="figure-caption"><a href="#" class="stretched-link">See</a></figcaption>
+     </figure>
+   </div>
+   <div class="col-md-3">
+     <figure class="figure">
+       <img src="blank.png" class="figure-img img-fluid rounded" alt="image">
+       <figcaption class="figure-caption"><a href="#" class="stretched-link">See</a></figcaption>
+     </figure>
+   </div>
+   <div class="col-md-3">
+     <figure class="figure">
+       <img src="blank.png" class="figure-img img-fluid rounded" alt="image">
+       <figcaption class="figure-caption"><a href="#" class="stretched-link">See</a></figcaption>
+     </figure>
+   </div>
+   <div class="col-md-3">
+     <figure class="figure">
+       <img src="blank.png" class="figure-img img-fluid rounded" alt="image">
+       <figcaption class="figure-caption"><a href="#" class="stretched-link">See</a></figcaption>
+     </figure>
+   </div>
+  </div><!-- end row -->
+  <div class="row p-3">
+   <div class="col-md-3">
+     <figure class="figure">
+       <img src="blank.png" class="figure-img img-fluid rounded" alt="image">
+       <figcaption class="figure-caption"><a href="#" class="stretched-link">See</a></figcaption>
+     </figure>
+   </div>
+   <div class="col-md-3">
+     <figure class="figure">
+       <img src="blank.png" class="figure-img img-fluid rounded" alt="image">
+       <figcaption class="figure-caption"><a href="#" class="stretched-link">See</a></figcaption>
+     </figure>
+   </div>
+   <div class="col-md-3">
+     <figure class="figure">
+       <img src="blank.png" class="figure-img img-fluid rounded" alt="image">
+       <figcaption class="figure-caption"><a href="#" class="stretched-link">See</a></figcaption>
+     </figure>
+   </div>
+   <div class="col-md-3">
+     <figure class="figure">
+       <img src="blank.png" class="figure-img img-fluid rounded" alt="image">
+       <figcaption class="figure-caption"><a href="#" class="stretched-link">See</a></figcaption>
+     </figure>
+   </div>
+  </div><!-- end row -->
+ </div><!-- end container -->
   
+     
+     
   
 <body>
 </html>
