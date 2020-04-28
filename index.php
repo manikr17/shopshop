@@ -110,7 +110,7 @@
    <div class="card">
      <figure class="figure">
        <img src="black.png" class="figure-img img-fluid rounded" alt="image">
-       <figcaption class="figure-caption text-center"><a href="categories/category.php" class="stretched-link">category : <?=$c." : ".$data[$c]?></a></figcaption>
+       <figcaption class="figure-caption text-center"><a href="categories/category.php" class="stretched-link">category : <?=$c." : ".$data[$c-1]?></a></figcaption>
      </figure>
    </div> 
   <? $c++;} ?>
