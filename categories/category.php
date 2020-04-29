@@ -153,18 +153,23 @@
   
   
   
-  <!--code from index.php card decks logic added
+  <!--code from index.php card decks logic added-->
    <p class="display-4 text-center">Categories</p>
     <?$c=1; $lim=$n/4; for($j=1;$j<=$lim;$j++){ ?>
-    <div class="container" id="category">
-    <div class="card-deck">
+    <div class="container">
+  <div class="row p-2">
     <? for($i=1;$i<=4;$i++){ ?> 
-   <div class="card">
-     <figure class="figure">
-       <img src="../black.png" class="figure-img img-fluid rounded" alt="image">
-       <figcaption class="figure-caption text-center"></figcaption>
-     </figure>
-   </div> 
+   <div class="col-sm">
+      <figure class="figure">
+        <img src="/black.png" class="figure-img img-fluid rounded" alt="product">
+        <figcaption class="figure-caption text-center">
+            <h5 class="card-title">Product&nbsp;&nbsp;<a href="#"><i class="fa fa-heart-o"></i></a></h5>
+            <p class="card-text"><?=$prod_name[$c-1]?></p>
+          <a href="#" class="btn btn-dark mb-4 text-center" role="button">Buy</a>
+          <!--<button type="button" class="btn btn-dark mb-4">Buy</button>-->
+           </figcaption>
+      </figure>
+    </div>
   <? $c++;} ?>
       </div> 
      </div>
@@ -172,40 +177,37 @@
     
     
     
-  
-  
-  <!--code from index.php card decks but logic is written
-  <p class="display-4 text-center">Categories</p>
+
+
+  <!--code from index.php card decks logic added-->
+   <p class="display-4 text-center">Categories</p>
     <?$c=1; $rem=$n%4; for($j=1;$j<=1;$j++){ ?>
-    <div class="container" id="category">
-    <div class="card-deck">
+    <div class="container">
+  <div class="row p-2">
     <? for($i=1;$i<=$rem;$i++){ ?> 
-   <div class="card">
-     <figure class="figure">
-       <img src="../black.png" class="figure-img img-fluid rounded" alt="image">
-       <figcaption class="figure-caption text-center"></figcaption>
-     </figure>
-   </div> 
+   <div class="col-sm">
+      <figure class="figure">
+        <img src="/black.png" class="figure-img img-fluid rounded" alt="product">
+        <figcaption class="figure-caption text-center">
+            <h5 class="card-title">Product&nbsp;&nbsp;<a href="#"><i class="fa fa-heart-o"></i></a></h5>
+            <p class="card-text"><?=$prod_name[$c-1]?></p>
+          <a href="#" class="btn btn-dark mb-4 text-center" role="button">Buy</a>
+          <!--<button type="button" class="btn btn-dark mb-4">Buy</button>-->
+           </figcaption>
+      </figure>
+    </div>
   <? $c++;} ?>
       </div> 
      </div>
-    <? } ?>-->
+    <? } ?>
+
+
+
+
+
   
-  
-  
-  
-  
-  
- 
-  
-  
-  
-  
-  
-  
-    
-   
-  
+
+
   
 </body>
     
