@@ -34,7 +34,6 @@
      <style media="screen">
             .figure {display: table;margin-right: auto;margin-left: auto;}
             .figure-caption {display: table-caption;caption-side: bottom;text-align: center;}
-            .card{ border:none;}
     </style>
     
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -118,9 +117,10 @@
     <p class="display-4 text-center">Categories</p>
     <?$c=1; for($j=1;$j<=2;$j++){ ?>
     <div class="container" id="category">
-    <div class="card-deck">
+    <div class="row p-2">
     <? for($i=1;$i<=4;$i++){ ?> 
-   <div class="card">
+       <? if(4*($j-1)+$i>9) break; ?>
+   <div class="col-md-3">
      <figure class="figure">
        <img src="black.png" class="figure-img img-fluid rounded" alt="image">
        <figcaption class="figure-caption text-center"><a href='categories/category.php?cat_id=<?=$c;?>&&cat_name=<?=$got[$c-1];?>' class="stretched-link">category : <?=$c;?> : <?=$got[$c-1];?></a></figcaption>
