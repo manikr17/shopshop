@@ -150,9 +150,9 @@
     <p class="display-4 text-center">Categories</p>
     <?$c=1; for($j=1;$j<=2;$j++){ ?>
     <div class="container" id="category">
-    <div class="card-deck">
+    <div class="card-deck m-2">
     <? for($i=1;$i<=4;$i++){ ?> 
-   <div class="card m-2">
+   <div class="card m-4">
      <figure class="figure">
        <img src="black.png" class="figure-img img-fluid rounded" alt="image">
        <figcaption class="figure-caption text-center"><a href='categories/category.php?cat_id=<?=$c;?>&&cat_name=<?=$got[$c-1];?>' class="stretched-link">category : <?=$c;?> : <?=$got[$c-1];?></a></figcaption>
