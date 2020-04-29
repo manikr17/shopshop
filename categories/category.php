@@ -126,6 +126,7 @@
            </figcaption>
       </figure>
    </div> 
+       <? } ?>
       </div> 
      </div>
     <? } ?>
