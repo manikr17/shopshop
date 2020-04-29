@@ -171,7 +171,7 @@
    
   
   
-<body>
+</body>
     
  <!--footer-->
     <!-- Footer -->
@@ -192,35 +192,5 @@
 </footer>
 <!-- Footer -->
     
-    
-</html>
-
-     </figure>
-   </div> 
-  <? $c++;} ?>
-      </div> 
-     </div>
-    <? } ?>
-  
-  
-  
-  
-  
-  
-  
-  
    
-  
-  
-  
-  
-  
- 
-  
-  
-  
-  
-  
-  
-  </body>
 </html>
