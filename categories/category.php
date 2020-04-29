@@ -25,6 +25,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  
+  <!-- STYLE FOR ROWS AND COLUMNS-->
+  <style media="screen">
+            .figure {display: table;margin-right: auto;margin-left: auto;}
+            .figure-caption {display: table-caption;caption-side: bottom;text-align: center;}
+    </style>
 </head>
 <body>
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
