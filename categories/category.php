@@ -106,9 +106,10 @@
   
   
 <!--cards first code-->
+<div class="container">
   <div class="row p-2">
   <? foreach($pro as $p) { ?>
-    <div class="col-md-3">
+    <div class="col-sm">
       <figure class="figure">
         <img src="/black.png" class="figure-img img-fluid rounded" alt="product">
         <figcaption class="figure-caption text-center">
@@ -121,6 +122,7 @@
     </div>
   <? } ?>
 </div>
+</div>  
   
   
   
