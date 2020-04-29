@@ -100,16 +100,18 @@
   
   
 <!--cards first code-->
-  <div class="card-group m-4">
+  <div class="row p-2">
   <? foreach($pro as $p) { ?>
-    <div class="card m-4">
+    <div class="col-md-3">
+      <figure class="figure">
         <img src="../blank.png" class="card-img-top" alt="Product">
-        <div class="card-body">
+        <figcaption class="figure-caption text-center">
             <h5 class="card-title">Product&nbsp;&nbsp;<a href="#"><i class="fa fa-heart-o"></i></a></h5>
             <p class="card-text"><?=$p['product_name']?></p>
-      </div>
+      </figcaption>
           <a href="#" class="btn btn-dark mb-4 text-center" role="button">Buy</a>
           <!--<button type="button" class="btn btn-dark mb-4">Buy</button>-->
+      </figure>
     </div>
   <? } ?>
 </div>
