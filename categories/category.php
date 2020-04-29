@@ -120,7 +120,7 @@
         <img src="/black.png" class="figure-img img-fluid rounded" alt="product">
         <figcaption class="figure-caption text-center">
             <h5 class="card-title">Product&nbsp;&nbsp;<a href="#"><i class="fa fa-heart-o"></i></a></h5>
-            <p class="card-text"><? $prod_name[$c-1] ?></p>
+            <p class="card-text"><? =$prod_name[$c-1] ?></p>
           <a href="#" class="btn btn-dark mb-4 text-center" role="button">Buy</a>
           <!--<button type="button" class="btn btn-dark mb-4">Buy</button>-->
            </figcaption>
@@ -142,7 +142,7 @@
             <h5 class="card-title">Product&nbsp;&nbsp;<a href="#"><i class="fa fa-heart-o"></i></a></h5>
             <p class="card-text"><?=$p['product_name']?></p>
           <a href="#" class="btn btn-dark mb-4 text-center" role="button">Buy</a>
-          <!--<button type="button" class="btn btn-dark mb-4">Buy</button>-->
+          <!--<button type="button" class="btn btn-dark mb-4">Buy</button>
            </figcaption>
       </figure>
     </div>
