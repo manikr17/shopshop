@@ -70,6 +70,18 @@
         <input type="email" class="form-control" id="inputEmail" placeholder="email" name="email">
     </div>
     <div class="form-group">
+        <label for="inputCity">city</label>
+        <input type="text" class="form-control" id="inputCity" placeholder="city" name="city">
+    </div>
+    <div class="form-group">
+        <label for="inputState">State</label>
+        <input type="text" class="form-control" id="inputState" placeholder="state" name="state">
+    </div>
+    <div class="form-group">
+        <label for="inputCountry">Country</label>
+        <input type="text" class="form-control" id="inputCountry" placeholder="country" name="country">
+    </div>
+    <div class="form-group">
         <label for="inputPassword">Password</label>
         <input type="password" class="form-control" id="inputPassword" placeholder="Password" name="password">
     </div>
