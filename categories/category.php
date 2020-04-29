@@ -110,7 +110,7 @@
   <? foreach($pro as $p) { ?>
     <div class="col-md-3">
       <figure class="figure">
-        <img src="black.png" class="figure-img img-fluid rounded" alt="product">
+        <img src="/black.png" class="figure-img img-fluid rounded" alt="product">
         <figcaption class="figure-caption text-center">
             <h5 class="card-title">Product&nbsp;&nbsp;<a href="#"><i class="fa fa-heart-o"></i></a></h5>
             <p class="card-text"><?=$p['product_name']?></p>
