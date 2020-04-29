@@ -109,46 +109,9 @@
   ?>
   
   
-  <!--new cards -->
-  <? for($j=0;$j<$n/5;$j++){ ?>
-    <div class="container" id="category">
-    <div class="row p-2">
-    <? for($i=1;$i<=5;$i++){ ?> 
-       <? $c=5*$j+$i; $if($c>$n) break; ?>
-   <div class="col-md-3">
-     <figure class="figure">
-        <img src="/black.png" class="figure-img img-fluid rounded" alt="product">
-        <figcaption class="figure-caption text-center">
-            <h5 class="card-title">Product&nbsp;&nbsp;<a href="#"><i class="fa fa-heart-o"></i></a></h5>
-            <p class="card-text"><? =$prod_name[$c-1] ?></p>
-          <a href="#" class="btn btn-dark mb-4 text-center" role="button">Buy</a>
-          <!--<button type="button" class="btn btn-dark mb-4">Buy</button>-->
-           </figcaption>
-      </figure>
-   </div> 
-      </div> 
-     </div>
-    <? } ?>
   
   
-<!--cards first code
-<div class="container">
-  <div class="row p-2">
-  <? foreach($pro as $p) { ?>
-    <div class="col-sm">
-      <figure class="figure">
-        <img src="/black.png" class="figure-img img-fluid rounded" alt="product">
-        <figcaption class="figure-caption text-center">
-            <h5 class="card-title">Product&nbsp;&nbsp;<a href="#"><i class="fa fa-heart-o"></i></a></h5>
-            <p class="card-text"><?=$p['product_name']?></p>
-          <a href="#" class="btn btn-dark mb-4 text-center" role="button">Buy</a>
-          <!--<button type="button" class="btn btn-dark mb-4">Buy</button>
-           </figcaption>
-      </figure>
-    </div>
-  <? } ?>
-</div>
-</div>  -->
+
   
   
   
