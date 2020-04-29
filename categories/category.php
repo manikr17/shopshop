@@ -118,11 +118,11 @@
   
   <!--code from index.php card decks logic added-->
    <p class="display-4 text-center">Categories</p>
-    <?$c=1; $lim=$n/5+1; for($j=1;$j<=$lim;$j++){ ?>
+    <?$c=1; $lim=$n/4+1; for($j=1;$j<=$lim;$j++){ ?>
     <div class="container">
   <div class="row p-2">
-    <? for($i=1;$i<=5;$i++){ ?> 
-    <? if(5*($j-1)+$i>$n) break; ?>
+    <? for($i=1;$i<=4;$i++){ ?> 
+    <? if(4*($j-1)+$i>$n) break; ?>
    <div class="col-md-3">
       <figure class="figure">
         <img src="/black.png" class="figure-img img-fluid rounded" alt="product">
