@@ -134,15 +134,15 @@
           $res = $con->query("select * from categories");
           while($ele = $res->fetch_assoc())
               $data[]=$ele;
-          echo "Associative array<br>"; 
-          print_r($data);
+          //echo "Associative array<br>"; 
+          //print_r($data);
           $got = array();
           foreach($data as $dat)
           {
                 $got[]=$dat['cat_name'];   
           }
-    echo "Associative array converted into normal array<br>"; 
-          print_r($got);
+          //echo "Associative array converted into normal array<br>"; 
+          //print_r($got);
     ?>
     
     <br>
