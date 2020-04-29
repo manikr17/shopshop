@@ -120,7 +120,7 @@
     <div class="container" id="category">
     <div class="card-deck">
     <? for($i=1;$i<=4;$i++){ ?> 
-      <?  if(4*(j-1)+i>=15) break; ?>
+      <?  if(4*(j-1)+i>=9) break; ?>
    <div class="card">
      <figure class="figure">
        <img src="black.png" class="figure-img img-fluid rounded" alt="image">
