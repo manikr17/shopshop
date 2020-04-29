@@ -143,7 +143,7 @@
 
 
   <!--code from index.php card decks logic added-->
-   <p class="display-4 text-center">Categories</p>
+   <!--<p class="display-4 text-center">Categories</p>-->
     <?$c=1; $rem=$n%4; for($j=1;$j<=1;$j++){ ?>
     <div class="container">
   <div class="row p-2">
