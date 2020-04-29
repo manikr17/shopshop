@@ -100,6 +100,10 @@
     foreach($pro as $p)
       $prod_name[]=$p['product_name'];
     
+    
+    
+    
+    
     $n=count($prod_name);
     
   ?>
