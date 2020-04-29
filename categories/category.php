@@ -97,7 +97,9 @@
     $n=count($prod_name);
     
   ?>
-<!--cards-->
+  
+  
+<!--cards first code-->
   <div class="card-group m-4">
   <? foreach($pro as $p) { ?>
     <div class="card m-4">
@@ -115,51 +117,105 @@
   
   
   
-   <p class="display-4 text-center">products</p>
+  <!--code from index.php card decks logic added-->
+   <p class="display-4 text-center">Categories</p>
     <?$c=1; $lim=$n/4; for($j=1;$j<=$lim;$j++){ ?>
     <div class="container" id="category">
-    <div class="card-group m-4">
+    <div class="card-deck">
     <? for($i=1;$i<=4;$i++){ ?> 
-   <div class="card m-4">
-        <img src="../blank.png" class="card-img-top" alt="Product">
-        <div class="card-body">
-            <h5 class="card-title">Product&nbsp;&nbsp;<a href="#"><i class="fa fa-heart-o"></i></a></h5>
-            <p class="card-text"><?=$p[$c-1]?></p>
-      </div>
-      <div class="text-center">
-          <a href="#" class="btn btn-dark mb-4" role="button">Buy</a>
-     </div>
-          <!--<button type="button" class="btn btn-dark mb-4">Buy</button>-->
-    </div>
+   <div class="card">
+     <figure class="figure">
+       <img src="black.png" class="figure-img img-fluid rounded" alt="image">
+       <figcaption class="figure-caption text-center"></figcaption>
+     </figure>
+   </div> 
   <? $c++;} ?>
       </div> 
      </div>
     <? } ?>
+    
+    
+    
   
   
-  
-  
-  
-  <p class="display-4 text-center">products</p>
+  <!--code from index.php card decks but logic is written-->
+  <p class="display-4 text-center">Categories</p>
     <?$c=1; $rem=$n%4; for($j=1;$j<=1;$j++){ ?>
     <div class="container" id="category">
-    <div class="card-group m-4">
+    <div class="card-deck">
     <? for($i=1;$i<=$rem;$i++){ ?> 
-   <div class="card m-4">
-        <img src="../blank.png" class="card-img-top" alt="Product">
-        <div class="card-body">
-            <h5 class="card-title">Product&nbsp;&nbsp;<a href="#"><i class="fa fa-heart-o"></i></a></h5>
-            <p class="card-text"><?=$p[$c-1]?></p>
-      </div>
-      <div class="text-center">
-          <a href="#" class="btn btn-dark mb-4" role="button">Buy</a>
-     </div>
-          <!--<button type="button" class="btn btn-dark mb-4">Buy</button>-->
-    </div>
+   <div class="card">
+     <figure class="figure">
+       <img src="black.png" class="figure-img img-fluid rounded" alt="image">
+       <figcaption class="figure-caption text-center"></figcaption>
+     </figure>
+   </div> 
   <? $c++;} ?>
       </div> 
      </div>
     <? } ?>
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  
+    
+   
+  
+  
+<body>
+    
+ <!--footer-->
+    <!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://shop-shop.herokuapp.com">shop-shop.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+    
+    
+</html>
+
+     </figure>
+   </div> 
+  <? $c++;} ?>
+      </div> 
+     </div>
+    <? } ?>
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+ 
   
   
   
