@@ -98,13 +98,13 @@
     <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" data-interval="1000">
-      <img src="../black.png" class="d-block w-100" alt="...">
+      <img src="../black.png" class="d-block w-100" alt="..." style="height:12rem;">
     </div>
     <div class="carousel-item" data-interval="2000">
-      <img src="../blank.png" class="d-block w-100" alt="...">
+      <img src="../black.png" class="d-block w-100" alt="..." style="height:12rem;">
     </div>
     <div class="carousel-item">
-      <img src="../black.png" class="d-block w-100" alt="...">
+      <img src="../black.png" class="d-block w-100" alt="..." style="height:12rem;">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
