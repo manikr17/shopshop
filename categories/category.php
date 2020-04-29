@@ -125,7 +125,7 @@
     <? for($i=1;$i<=4;$i++){ ?> 
    <div class="card">
      <figure class="figure">
-       <img src="black.png" class="figure-img img-fluid rounded" alt="image">
+       <img src="../black.png" class="figure-img img-fluid rounded" alt="image">
        <figcaption class="figure-caption text-center"></figcaption>
      </figure>
    </div> 
@@ -146,7 +146,7 @@
     <? for($i=1;$i<=$rem;$i++){ ?> 
    <div class="card">
      <figure class="figure">
-       <img src="black.png" class="figure-img img-fluid rounded" alt="image">
+       <img src="../black.png" class="figure-img img-fluid rounded" alt="image">
        <figcaption class="figure-caption text-center"></figcaption>
      </figure>
    </div> 
