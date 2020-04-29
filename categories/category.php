@@ -123,7 +123,7 @@
   <div class="row p-2">
     <? for($i=1;$i<=5;$i++){ ?> 
     <? if(5*($j-1)+$i>$n) break; ?>
-   <div class="col-sm">
+   <div class="col-md-3">
       <figure class="figure">
         <img src="/black.png" class="figure-img img-fluid rounded" alt="product">
         <figcaption class="figure-caption text-center">
