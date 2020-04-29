@@ -95,7 +95,7 @@
     
     
     <!--main card carousel-->
-    <div id="main-card" class="carousel slide m-2" data-ride="carousel">
+    <div id="main-card" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" data-interval="10000">
       <img src="../black.png" class="d-block w-100" alt="..." style="height:20rem;">
