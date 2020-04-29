@@ -119,7 +119,7 @@
     <div class="container" id="category">
     <div class="row p-2">
     <? for($i=1;$i<=4;$i++){ ?> 
-       <? if(4*($j-1)+$i>9) break; ?>
+       <? if(4*($j-1)+$i>15) break; ?>
    <div class="col-md-3">
      <figure class="figure">
        <img src="black.png" class="figure-img img-fluid rounded" alt="image">
